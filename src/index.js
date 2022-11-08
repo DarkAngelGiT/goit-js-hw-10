@@ -30,7 +30,8 @@ function onSearch(event) {
 }
 
 // Ф-ція для повідомлення користувачу про помилку
-const handleError=()=>{
+const handleError = () => {
+    clearPage();
     Notify.failure('Oops, there is no country with that name')
 }
 
