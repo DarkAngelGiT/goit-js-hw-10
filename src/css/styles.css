@@ -17,14 +17,17 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .country-list {
-  list-style: none;
+  list-style: none;  
 }
 
 img {
   margin-right: 10px;
+  margin-left: 30px;
 }
 
 svg {
@@ -39,8 +42,10 @@ svg {
 
 p {
   font-weight: 700;
+  margin-left: 30px;
 }
 
 span {
   font-weight: 400;
+  margin-left: 10px;
 }
